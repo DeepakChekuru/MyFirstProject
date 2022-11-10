@@ -9,6 +9,14 @@ public class Bike {
 
     public void setKk(String kk) {
         this.kk = kk;
+    int k;
+
+    public int getK() {
+        return k;
+    }
+
+    public void setK(int k) {
+        this.k = k;
     }
 
     public String getBrand() {
