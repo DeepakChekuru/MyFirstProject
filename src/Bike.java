@@ -2,6 +2,7 @@ public class Bike {
 
     String brand;
     String kk;
+    int k;
 
     public String getKk() {
         return kk;
@@ -9,7 +10,7 @@ public class Bike {
 
     public void setKk(String kk) {
         this.kk = kk;
-    int k;
+    }
 
     public int getK() {
         return k;
