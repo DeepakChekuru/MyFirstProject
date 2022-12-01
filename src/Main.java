@@ -6,6 +6,9 @@ public class Main {
         s.setI(2);
         s.setI(5);
         System.out.println("Test branch 1"+s.getI());
+        
+        
+        
         System.out.println("Test branch 5"+s.getI());
     }
 }
