@@ -1,13 +1,14 @@
 public class Student {
     int i;
-    String k;
 
-    public String getK() {
-        return k;
+    String department;
+
+    public void setDepartment(String department){
+        this.department=department;
     }
 
-    public void setK(String k) {
-        this.k = k;
+    public String getDepartment(){
+        return department;
     }
 
     public void setI(int i) {
@@ -18,5 +19,5 @@ public class Student {
         return i;
     }
 
-    String dept;
+    String brand;
 }
