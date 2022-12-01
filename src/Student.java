@@ -17,4 +17,6 @@ public class Student {
     public int getI() {
         return i;
     }
+
+    String dept;
 }
